@@ -114,7 +114,6 @@ export default function Page() {
         </p>
         <p className='text-xs sm:text-sm'>Built with ❤️ by @muhsinsuny.</p>
       </footer>
-      );
     </main>
   );
 }
