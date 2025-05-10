@@ -19,7 +19,7 @@ export default function Page() {
             </a>
           </div>
           <button
-            className='block focus:outline-none sm:hidden'
+            className='block cursor-pointer focus:outline-none sm:hidden'
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <svg

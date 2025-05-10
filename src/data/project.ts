@@ -58,11 +58,11 @@ export const projectList = [
   },
   {
     id: 7,
-    title: 'Portfolio By',
-    subtitle: 'Variant Porto',
+    title: 'Portfolio By Eza Fontana Romanza',
+    subtitle: 'Variant Porto 4',
     description: 'This is the best portfolio from WPH bootcamp students.',
-    image: '/thumbnails/zul.png',
-    link: 'https://example.com/project-7',
+    image: '/thumbnails/eza.png',
+    link: 'https://portfolio-romanza-147.vercel.app',
   },
   {
     id: 8,
