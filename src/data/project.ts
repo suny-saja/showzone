@@ -70,7 +70,7 @@ export const projectList = [
     subtitle: 'Variant Porto 4',
     description: 'This is the best portfolio from WPH bootcamp students.',
     image: '/thumbnails/angga.png',
-    link: 'https://https://portfolio-angga-wijaya.vercel.app/',
+    link: 'https://portfolio-angga-wijaya.vercel.app/',
   },
   {
     id: 9,
