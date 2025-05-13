@@ -74,11 +74,11 @@ export const projectList = [
   },
   {
     id: 9,
-    title: 'Portfolio By',
-    subtitle: 'Variant Porto',
+    title: 'Portfolio By Nikolaus Albert',
+    subtitle: 'Variant Porto 2',
     description: 'This is the best portfolio from WPH bootcamp students.',
-    image: '/thumbnails/zul.png',
-    link: 'https://example.com/project-9',
+    image: '/thumbnails/niko.png',
+    link: 'https://wph-portfolio-nikolaus-alberts-projects.vercel.app/,
   },
   {
     id: 10,
