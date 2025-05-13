@@ -78,7 +78,7 @@ export const projectList = [
     subtitle: 'Variant Porto 2',
     description: 'This is the best portfolio from WPH bootcamp students.',
     image: '/thumbnails/niko.png',
-    link: 'https://wph-portfolio-nikolaus-alberts-projects.vercel.app/,
+    link: 'https://wph-portfolio-nikolaus-alberts-projects.vercel.app/',
   },
   {
     id: 10,
