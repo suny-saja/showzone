@@ -10,8 +10,8 @@ export default function Page() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <main className='custom-container bg-primary-200 overflow-hidden px-4 py-8 sm:px-6 sm:py-12'>
-      <nav className='custom-container top-0 mb-6 w-full bg-blue-600 p-4 text-white shadow-lg sm:mb-8'>
+    <main className='custom-container overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4 py-8 sm:px-6 sm:py-12'>
+      <nav className='top-0 mb-6 w-full p-4 text-white shadow-lg sm:mb-8 md:flex md:flex-row md:items-center md:justify-between'>
         <div className='flex items-center justify-between'>
           <div className='text-xl font-bold sm:text-2xl'>
             <a href='#' className='hover:text-gray-200'>
@@ -69,9 +69,9 @@ export default function Page() {
       </nav>
       <h1 className='mb-6 text-center text-3xl font-bold text-red-500 sm:mb-8 sm:text-4xl'>
         Welcome to <br />
-        <span className='text-blue-600'>SHOWZONE WPH BATCH 2</span>
+        <span className='text-white'>SHOWZONE WPH BATCH 2</span>
       </h1>
-      <div className='mb-8 text-center text-base text-gray-600 sm:mb-12 sm:text-2xl'>
+      <div className='mb-8 text-center text-base text-gray-800 sm:mb-12 sm:text-2xl'>
         This is a showcase of our projects from the WPH Bootcamp. <br />
         We are a group of passionate developers who have come together to create
         amazing things. <br />
@@ -81,7 +81,7 @@ export default function Page() {
         We are excited to share our work with you and hope you enjoy it as much
         as we enjoyed creating it. <br />
         <br />
-        <span className='text-blue-600'>Explore our projects</span> and discover
+        <span className='text-white'>Explore our projects</span> and discover
         the talent and dedication of our team. <br />
         <br />
         We are always looking for new challenges and opportunities to grow as
@@ -91,7 +91,7 @@ export default function Page() {
         <br />
         Thank you for visiting our showcase! <br />
         <br />
-        <span className='relative mb-8 text-blue-600'>Happy exploring!</span>
+        <span className='relative mb-8 text-white'>Happy exploring!</span>
       </div>
       <div className='max-w-auto m-4 mt-6 grid grid-cols-1 gap-6 px-4 sm:m-8 sm:mt-10 sm:grid-cols-2 sm:gap-8 sm:px-8 md:grid-cols-3 lg:grid-cols-4'>
         {projectList.map((project, index) => (

@@ -10,7 +10,7 @@ type Props = {
 export default function ProjectCard({ project }: Props) {
   return (
     <Link href={project.link} target='_blank' rel='noopener noreferrer'>
-      <div className='flex h-96 w-full flex-col gap-8 overflow-hidden rounded-2xl bg-white p-4 shadow-xl transition duration-300 hover:scale-105 hover:shadow-xl'>
+      <div className='flex h-99 w-full flex-col gap-8 overflow-hidden rounded-2xl bg-white p-4 shadow-xl transition duration-300 hover:scale-105 hover:shadow-xl'>
         <div className='flex-shrink-0'>
           <Image
             src={project.image}
@@ -25,9 +25,9 @@ export default function ProjectCard({ project }: Props) {
             quality={100}
           />
         </div>
-        <div className='flex-grow p-2'>
+        <div className='flex-grow'>
           <h2 className='text-xl font-semibold text-gray-800'>
-            0{project.id} -
+            0{project.id} -{' '}
             <span className='text-blue-600'>{project.title}</span>
           </h2>
           <h3 className='text-sm text-gray-500'>{project.subtitle}</h3>
