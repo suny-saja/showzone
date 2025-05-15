@@ -59,7 +59,10 @@ export default function Page() {
               </div>
             ))}
           </div>
-          <footer className='relative mt-8 mb-0 h-20 rounded-t-full bg-gray-800 py-4 text-center text-white sm:mt-12 sm:py-6'>
+          <footer
+            className='relative mt-8 mb-0 h-20 rounded-t-full bg-gray-800 py-4 text-center text-white sm:mt-12 sm:py-6'
+            id='contact'
+          >
             <p className='text-xs sm:text-sm'>
               © {new Date().getFullYear()} SHOWZONE WPH BATCH 2. All rights
               reserved.
