@@ -82,11 +82,11 @@ export const projectList = [
   },
   {
     id: 10,
-    title: 'Portfolio By',
-    subtitle: 'Variant Porto',
+    title: 'Portfolio By Fiqrie',
+    subtitle: 'Variant Porto 4',
     description: 'This is the best portfolio from WPH bootcamp students.',
-    image: '/thumbnails/zul.png',
-    link: 'https://example.com/project-10',
+    image: '/thumbnails/fiqrie.png',
+    link: 'https://portfolio-vic-ebon.vercel.app/',
   },
 ];
 
