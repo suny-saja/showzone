@@ -50,7 +50,7 @@ export default function Page() {
               <div
                 key={project.id}
                 className={`${
-                  index >= projectList.length - 2
+                  index >= projectList.length
                     ? 'col-span-1 flex justify-center sm:col-span-2'
                     : 'items-center'
                 }`}

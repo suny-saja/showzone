@@ -88,14 +88,22 @@ export const projectList = [
     image: '/thumbnails/fiqrie.png',
     link: 'https://portfolio-vic-ebon.vercel.app/',
   },
+  {
+    id: 11,
+    title: 'The 2nd Portfolio from Dwi Hermawati',
+    subtitle: 'Variant Porto 3',
+    description: 'This is the best portfolio from WPH bootcamp students.',
+    image: '/thumbnails/dwi2.png',
+    link: 'https://lp-portfolio-2.vercel.app/',
+  },
+  {
+    id: 12,
+    title: 'Portfolio By ',
+    subtitle: 'Variant Porto ',
+    description: 'This is the best portfolio from WPH bootcamp students.',
+    image: '/thumbnails/aha.png',
+    link: 'https://ahademycode.com/',
+  },
 ];
 
 export default projectList;
-// export const projects: Project[] = Array.from({ length: 20 }, (_, i) => ({
-//   id: i + 1,
-//   title: `Project ${i + 1}`,
-//   subtitle: `Subtitle for Project ${i + 1}`,
-//   description: `This is a brief description of project number ${i + 1}. It showcases creativity, collaboration, and technology.`,
-//   image: `https://via.placeholder.com/300x200?text=Project+${i + 1}`,
-//   link: `https://${id.projectList}`,
-// }));
