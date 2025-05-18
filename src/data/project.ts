@@ -102,7 +102,7 @@ export const projectList = [
     subtitle: 'Variant Porto 4',
     description: 'This is the best portfolio from WPH bootcamp students.',
     image: '/thumbnails/ikbal.png',
-    link: 'https://ikbal-portfolio.vercel.app/',
+    link: 'https://portofolio1-ten.vercel.app/',
   },
 ];
 
