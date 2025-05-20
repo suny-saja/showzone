@@ -104,6 +104,14 @@ export const projectList = [
     image: '/thumbnails/ikbal.png',
     link: 'https://ikbal-portfolio.vercel.app/',
   },
+  {
+    id: 13,
+    title: 'Portfolio By Muhsin Suny M.',
+    subtitle: 'Variant Porto 5',
+    description: 'This is the best portfolio from WPH bootcamp students.',
+    image: '/thumbnails/suny.png',
+    link: 'https://porto-suny.vercel.app/',
+  },
 ];
 
 export default projectList;

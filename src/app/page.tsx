@@ -11,7 +11,7 @@ export default function Page() {
       <Navbar />
       <main className='custom-container relative top-0 z-1 overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4'>
         <div className='relative'>
-          <div className='relative flex h-screen flex-col items-center justify-center text-center md:mt-2'>
+          <div className='relative flex h-screen flex-col items-center justify-center text-center md:mt-8'>
             <h1 className='mb-6 text-center text-3xl font-bold text-red-500 sm:mb-8 sm:text-4xl'>
               Welcome to <br />
               <span className='text-white'>SHOWZONE WPH BATCH 2</span>
@@ -50,8 +50,8 @@ export default function Page() {
               <div
                 key={project.id}
                 className={`${
-                  index >= projectList.length
-                    ? 'col-span-1 flex justify-center sm:col-span-2'
+                  index >= projectList.length - 1
+                    ? 'col-span-1 flex justify-center sm:col-span-4'
                     : 'items-center'
                 }`}
               >
