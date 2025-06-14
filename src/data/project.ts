@@ -128,6 +128,14 @@ export const projectList = [
     image: '/thumbnails/dimas.png',
     link: 'https://project-portofolio-nextjs-di-git-829756-dimassatria24s-projects.vercel.app/',
   },
+  {
+    id: 16,
+    title: 'Portfolio By NONE',
+    subtitle: 'Variant Porto ',
+    description: 'This is the best portfolio from WPH bootcamp students.',
+    image: '/thumbnails/dimas.png',
+    link: 'https://facedev.vercel.app/',
+  },
 ];
 
 export default projectList;
