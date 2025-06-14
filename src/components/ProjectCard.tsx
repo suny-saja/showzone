@@ -10,7 +10,7 @@ type Props = {
 export default function ProjectCard({ project }: Props) {
   return (
     <Link href={project.link} target='_blank' rel='noopener noreferrer'>
-      <div className='flex h-full w-full flex-col gap-8 overflow-hidden rounded-2xl bg-white p-4 shadow-xl transition duration-300 hover:scale-105 hover:shadow-xl'>
+      <div className='pointer-events-auto flex h-full w-full flex-col gap-8 overflow-hidden rounded-2xl bg-white p-4 shadow-xl transition duration-300 hover:scale-105 hover:shadow-xl'>
         <div className='flex-shrink-0'>
           <Image
             src={project.image}
