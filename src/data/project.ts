@@ -112,13 +112,21 @@ export const projectList = [
     image: '/thumbnails/suny.png',
     link: 'https://porto-suny.vercel.app/',
   },
-    {
+  {
     id: 14,
     title: 'Portfolio By Frans Yosua',
     subtitle: 'Variant Porto 2',
     description: 'This is the best portfolio from WPH bootcamp students.',
     image: '/thumbnails/frans.png',
     link: 'https://wph2.fransyosua.com/',
+  },
+  {
+    id: 15,
+    title: 'Portfolio By Dimas Satria',
+    subtitle: 'Variant Porto 2',
+    description: 'This is the best portfolio from WPH bootcamp students.',
+    image: '/thumbnails/dimas.png',
+    link: 'https://project-portofolio-nextjs-di-git-829756-dimassatria24s-projects.vercel.app/',
   },
 ];
 
